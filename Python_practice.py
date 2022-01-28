@@ -156,6 +156,8 @@ print(message_to_candidate)
 #f'{value:{width}.{precision}}'
 # add thousands separator 
 # f'{value:{width},.{precision}}'
+{winning_count:,} and {winning_percentage:.1f}%
+#winning_count will have a thousands separator, and winning_percentage will have one decimal place.)
 # activate your anaconda environment (required for jupyter notebook)
 ## (mine is called PythonData) -- in anaconda powershell
 conda activate PythonData
