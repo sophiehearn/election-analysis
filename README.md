@@ -68,8 +68,8 @@ with open(file_to_save, "w") as txt_file:
     txt_file.write(election_results)
 ```
 
-The resulting text file gave the following output:
-\n![Election_Results](https://raw.githubusercontent.com/sophiehearn/election-analysis/main/Resources/Election%20Results.png)
+The resulting text file gave the following output:  
+![Election_Results](https://raw.githubusercontent.com/sophiehearn/election-analysis/main/Resources/Election%20Results.png)
 
 This gives us the final summary or candidate votes as well as county vote turnout.
 
