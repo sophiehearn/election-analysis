@@ -7,13 +7,13 @@ This Election Audit was conducted in three counties in Colorado (Jefferson, Denv
 
 - Total votes: 399,711
 
-### Candidate Outcomes
+#### Candidate Outcomes
 - Candidates: Diana DeGette, Charles Casper Stockham, Raymon Anthony Doane. 
 - Winner: Diana DeGette (73.8%, 272,892 votes)
 - Runner-Up: Charles Casper Stockham (23%, 85,213 votes)
 - Other Candidate: Raymon Anthony Doane (3.1%, 11,606 votes)
 
-### County Turnout 
+#### County Turnout 
 - Denver: 82.8%, 306,055 votes 
 - Jefferson: 10.5%, 38,855 votes
 - Arapahoe: 6.7%, 24,801 votes
@@ -69,7 +69,7 @@ with open(file_to_save, "w") as txt_file:
 ```
 
 The resulting text file gave the following output:
-![Election_Results](https://raw.githubusercontent.com/sophiehearn/election-analysis/main/Resources/Election%20Results.png)
+\n![Election_Results](https://raw.githubusercontent.com/sophiehearn/election-analysis/main/Resources/Election%20Results.png)
 
 This gives us the final summary or candidate votes as well as county vote turnout.
 
@@ -80,7 +80,7 @@ e.g. in this code on line 47:
 # Get the candidate name from each row.
 candidate_name = row[2]
 ```
-the user would need to confirm which row the candidate information is in based on the data. 
+The user would need to confirm which row the candidate information is in based on the data. 
 
 For ease of reading, the variable names should be changed to reflect what is being tallied. 
 e.g. in this code we are tracking candidates but these variables and list/dict names (among others) should be edited if one were tallying something else: 
@@ -103,6 +103,6 @@ e.g. this code tracks the largest turnout per county:
         f"-------------------------\n"
         f"\nCandidate Votes:\n")
 ```
-This output should be edited to reflect the relevant data. 
+This output should be edited to reflect the specificities of the relevant data. 
 
 Ultimately this code can be useful, with some small modifications, to tally numbers of almost any variable in a CSV file. 
